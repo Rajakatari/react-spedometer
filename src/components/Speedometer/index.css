@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 50%;
+}
+.accelarateBtn {
+  background-color: rgb(13, 66, 87);
+  border: none;
+  height: 44px;
+  width: 110px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Roboto';
+  margin-right: 20px;
+  cursor: pointer;
+}
+.breakBtn {
+  border: none;
+  height: 44px;
+  width: 110px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.counter {
+  color: yellow;
+  font-size: 50px;
+}
+.danger-speed {
+  color: red;
+}
